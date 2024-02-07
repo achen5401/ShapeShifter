@@ -1,0 +1,162 @@
+html {
+  background-color: #145374;
+}
+
+
+
+
+#splash-screen {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 15%;
+}
+
+#welcome-text {
+  font-size: 70px;
+  color: #FFE484;
+  font-family: Marker Felt,
+    fantasy;
+}
+
+#welcome-subtext {
+  font-size: 22px;
+  color: white;
+}
+
+#welcome-intro {
+  font-size: 17px;
+  color: white;
+
+}
+
+#main-screen {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding: 2% 10% 0 10%;
+}
+
+#home-dropdown {
+  /* width: 35%; */
+  display: flex;
+}
+
+#search-bar {
+  padding-left: 10%;
+}
+
+#create-map-title{
+  font-family: Marker Felt,
+      fantasy;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+
+#mapcard {
+  margin: 2%;
+}
+
+#mapcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+#login-text {
+  font-size: 64px;
+  color: #FFE484;
+}
+
+#signup-text{
+  font-size: 48px;
+  color: #FFE484;
+}
+
+#forgotpassword-text{
+  font-size: 48px;
+  color: #FFE484;
+}
+
+#forgotpassword-subtext{
+  font-size: 14px;
+  color: white;
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+#emailsent-text{
+  font-size: 20px;
+  color: #FFE484;
+}
+
+#resetpassword-text{
+  font-size: 48px;
+  color: #FFE484;
+  margin-bottom: 40px;
+}
+
+
+#community-screen {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding: 2% 10% 0 10%;
+}
+
+#colorpicker{
+  opacity: 0;
+  /* cursor: pointer; */
+  display: none
+}
+
+
+
+/* .MuiOutlinedInput-notchedOutline {
+  border-color: 1px solid white ;
+} */
+
+#create-map-screen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.collaborator-error {
+  margin: 0;
+  font-size: 90%;
+  color: tomato;
+}
+
+.tag-item {
+  background-color: #d4d5d6;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 30px;
+  height: 30px;
+  padding: 0 4px 0 1rem;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.3rem 0.3rem 0;
+}
+
+.tag-item>.button {
+  background-color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

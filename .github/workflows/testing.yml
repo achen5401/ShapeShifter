@@ -1,0 +1,32 @@
+name: Unit Tests
+on: [push]
+
+jobs:
+  backend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: install
+        working-directory: server
+        run: 
+          npm install
+      - name: test
+        working-directory: server
+        run: 
+          npm test
+  frontend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: install
+        run: 
+          npm install
+      - name: install cypress
+        run: 
+          npm install cypress
+          npm install cypress-file-upload 
+      - name: test
+        run: 
+          npx cypress run
